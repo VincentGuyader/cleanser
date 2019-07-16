@@ -52,7 +52,8 @@ Imports:
     data.table,
     shinydashboard,
     golem,
-    V8
+    V8,
+    shinyalert
 Suggests:
     knitr,
     rmarkdown,
