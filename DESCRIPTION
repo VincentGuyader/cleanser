@@ -51,7 +51,8 @@ Imports:
     writexl,
     data.table,
     shinydashboard,
-    golem
+    golem,
+    V8
 Suggests:
     knitr,
     rmarkdown,
