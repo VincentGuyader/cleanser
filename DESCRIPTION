@@ -1,0 +1,61 @@
+Package: cleanser
+Title: Nettoyeur de Donnees
+Version: 0.18.0001
+Authors@R: c(
+    person("Vincent", "Guyader", email = "vincent@thinkr.fr", role = c("aut", "cre")),
+    person("Kevin", "Rosamont", email = "kevin@rdata.lu", role = "aut"),
+    person("Bruno", "Rodrigues", email = "bruno@brodrigues.co", role = "aut"),
+    person("Gousseff", "Matthieu", email = "matthieu.gousseff@gmail.com", role = "ctb"),
+    person("Fondation Universite Bretagne Sud", role = "fnd")
+  )
+Description: Interface graphique permettant de nettoyer des donnees, et de generer une base de donnees propre.
+License: GPL-3
+Depends:
+    mice,
+    R (>= 3.4.0)
+Imports:
+    corrplot,
+    dcmodify,
+    dplyr,
+    DT,
+    forcats,
+    ggplot2,
+    glue,
+    graphics,
+    htmltools,
+    LaF,
+    lubridate,
+    magrittr,
+    mime,
+    naniar,
+    parallel,
+    purrr,
+    R.utils,
+    readODS,
+    readr,
+    readxl,
+    rio,
+    shiny,
+    shinyjs,
+    shinyWidgets,
+    skimr,
+    stats,
+    stringi,
+    stringr,
+    tibble,
+    tidyr,
+    validate,
+    vcd,
+    VIM,
+    withr,
+    writexl,
+    data.table,
+    shinydashboard
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1

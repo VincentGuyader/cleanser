@@ -1,0 +1,1 @@
+globalVariables(c("level", "value", "stat", "variable", "formatted", "sd", "p0", "p25","p50", "median", "p75", "p100", "n_unique"))
