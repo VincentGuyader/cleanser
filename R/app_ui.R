@@ -57,7 +57,7 @@ golem_add_external_resources <- function(){
   )
  
   tags$head(
-    golem::js(),
+    golem::activate_js(),
     golem::favicon(),
     tags$head(tags$style(csscode)),
     useShinyjs(),
