@@ -512,6 +512,7 @@ mod_all_file <- function(input, output, session, stringsAsFactors = TRUE, r) {
     
     if (!is_viable(tolower(names(out)))){ return(data.frame())}
     out %>% mutate_if(considere_comme_factor,forcats::as_factor)
+    # out %>% mutate_if(considere_comme_factor,as.factor)
     
   })
   observeEvent(input$brute_force,{

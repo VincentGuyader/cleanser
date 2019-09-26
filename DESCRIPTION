@@ -1,6 +1,6 @@
 Package: cleanser
 Title: Nettoyeur de Donnees
-Version: 0.18.0001
+Version: 0.18.0002
 Authors@R: c(
     person("Vincent", "Guyader", email = "vincent@thinkr.fr", role = c("aut", "cre")),
     person("Kevin", "Rosamont", email = "kevin@rdata.lu", role = "aut"),
@@ -57,7 +57,7 @@ Imports:
 Suggests:
     knitr,
     rmarkdown,
-    testthat
+    testthat (>= 2.1.0)
 VignetteBuilder: knitr
 Remotes: thinkr-open/golem
 Encoding: UTF-8
