@@ -60,6 +60,7 @@ golem_add_external_resources <- function(){
     golem::activate_js(),
     golem::favicon(),
     tags$head(tags$style(csscode)),
+    tags$style(".shiny-notification-close {visibility:hidden}"),
     useShinyjs(),
     shinyjs::extendShinyjs(text = jscode)
     # Add here all the external resources
